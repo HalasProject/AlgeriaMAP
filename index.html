@@ -2,7 +2,7 @@
 <html>
   <body>
     <div class="map" style="zoom: 0.2;">
-      <img src="algeriamap.png" alt="" usemap="#image-map" />
+      <img src="algeriamap.png" alt="Map of algeria" usemap="#image-map" />
       <map name="image-map">
         <area
           title="TAMANRASSET"
@@ -437,34 +437,7 @@
         />
       </map>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-
-    <script>
-         var Toast = Swal.mixin({
-            background: "#0d1449",
-            toast: true,
-            position: "top-start",
-            showConfirmButton: false,
-
-            onOpen: (toast) => {
-              toast.addEventListener("mouseenter", Swal.stopTimer);
-              toast.addEventListener('mouseleave', Swal.resumeTimer)
-            },
-          });
-      document.querySelectorAll("area").forEach((area) => {
-        area.addEventListener("mouseover", function (e) {
-          Toast.fire({
-            title: `<p style='color:white'> ${e.toElement.alt} </p>`,
-            target: "body",
-            footer:
-              `<b style='color:white'> ${parseInt(Math.random() * 10000)} Products</b>`,
-          });
-        });
-        area.addEventListener("mouseout",function(e){
-            Toast.close()
-        })
-            
-      });
-    </script>
+    <script src="sweetalert2@9.js"></script>
+    <script src="algeriamap.js"></script>
   </body>
 </html>
