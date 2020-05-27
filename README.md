@@ -5,3 +5,7 @@ An imagemap is a graphic image where a user can click on different parts of the 
 
 As an example, say you have a map of Algeria that you wish to act as an image map. Each City could have their hot areas defined on the map to take you to different pages.
 ![alt text](https://raw.githubusercontent.com/HalasProject/AlgeriaMAP/master/algeria.gif)
+
+<p align="center">
+   <img src="https://i.ibb.co/zHdKpsJ/salahbentayeb.png" />
+</p>
